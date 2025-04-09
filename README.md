@@ -37,14 +37,14 @@ ollama run codellama
 
 # 🛠 Setup Instructions
 
-## 1️⃣ Clone the project
+##  1️⃣ Clone the project
 
 ```bash
 git clone https://github.com/your-username/offline-coding-assistant.git
 cd offline-coding-assistant
 ```
 
-### 2️⃣ Create & activate virtual environment
+##  2️⃣ Create & activate virtual environment
 
 ```bash
 python -m venv venv
@@ -59,19 +59,19 @@ python -m venv venv
   source venv/bin/activate
   ```
 
-### 3️⃣ Install dependencies
+##   3️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Start Ollama (in a separate terminal)
+##   4️⃣ Start Ollama (in a separate terminal)
 
 ```bash
 ollama run codellama
 ```
 
-### 5️⃣ Run the Flask server
+##   5️⃣ Run the Flask server
 
 ```bash
 python app.py
@@ -100,12 +100,12 @@ offline-coding-assistant/
 
 ## 👨‍💻 Team: SYNTAX SQUAD
 
-| Name            | Role         |
-|-----------------|--------------|
-| Minsu Agrahari  | Team Leader  |
-| Aditi Anand     | Developer    |
-| Rinita Saha     | Developer    |
-| Aneesh Das      | Developer    |
+| Name            | Role                  |
+|-----------------|-----------------------|
+| Minsu Agrahari  | Team Leader           |
+| Aditi Anand     | Frontend Developer    |
+| Rinita Saha     | Frontend Developer    |
+| Aneesh Das      | Backend Developer     |
 
 ---
 
