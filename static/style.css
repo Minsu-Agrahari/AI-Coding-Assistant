@@ -20,7 +20,7 @@ body{
     top: 50%;
     border-radius: 8px;
     cursor: pointer;
-    
+    display:none;
 }
 
 #close{
