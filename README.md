@@ -1,4 +1,3 @@
-```markdown
 # 🧠 AI-Coding-Assistant  
 **Offline AI-Powered Coding Assistant**
 
@@ -9,7 +8,7 @@ Powered by **open-source LLMs** (like `CodeLlama`) via **Ollama**, and built usi
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - 💡 Explains code logic
 - 🛠 Detects errors and suggests fixes
@@ -20,7 +19,7 @@ Powered by **open-source LLMs** (like `CodeLlama`) via **Ollama**, and built usi
 
 ---
 
-## 🧰 Tech Stack
+# 🧰 Tech Stack
 
 - **Backend:** Python, Flask, Requests, Ollama
 - **Frontend:** HTML, CSS, JavaScript
