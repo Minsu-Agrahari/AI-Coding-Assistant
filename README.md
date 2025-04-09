@@ -117,3 +117,6 @@ This project is open-sourced under the **MIT License**.
 ```
 
 You're doing great — this is shaping up into an awesome project! 🚀
+
+--------------------------------------------------------------------------------------------------
+

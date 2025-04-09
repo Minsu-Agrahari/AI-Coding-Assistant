@@ -1,3 +1,7 @@
+# 🔧 Key Features:
+# Accepts code and language from the frontend via a /process POST route.
+# Returns the AI-generated result as JSON to the frontend.
+
 from flask import Flask, render_template, request, jsonify
 import subprocess
 import ollama
