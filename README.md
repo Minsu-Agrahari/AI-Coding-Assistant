@@ -103,7 +103,7 @@ offline-coding-assistant/
 
 | Name            | Role                |
 |-----------------|---------------------|
-| Minsu Agrahari  | Team Leader         |
+| Minsu Agrahari  | Backend Developer   |
 | Aditi Anand     | Frontend Developer  |
 | Rinita Saha     | Frontend Developer  |
 | Aneesh Das      | Backend Developer   |
