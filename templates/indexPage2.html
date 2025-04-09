@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Driven Code Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">AI-Driven Code Assistant</h1>
+        <div class="editor-container">
+            <label for="code" class="label">Enter Code:</label>
+            <textarea id="code" rows="15" placeholder="Write your code here..."></textarea>
+        </div>
+        <div class="options">
+            <label for="language" class="label">Choose Language:</label>
+            <select id="language">
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C">C</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </div>
+        <button id="submit-btn" class="btn">Analyze Code</button>
+        
+        <div class="output-container">
+            <h2 class="output-title">Analysis & Output</h2>
+            <div id="output" class="output-box"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script2.js') }}"></script>
+</body>
+</html>

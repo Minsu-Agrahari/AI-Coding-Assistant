@@ -12,6 +12,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/start')
+def start():
+    return render_template('indexPage2.html')
+
 # API route to handle code processing requests from frontend
 @app.route('/process', methods=['POST'])
 def process_code():
