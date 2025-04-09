@@ -6,7 +6,6 @@ It detects errors, explains code, and suggests fixes for **Python, Java, C, and 
 
 Powered by **open-source LLMs** (like `CodeLlama`) via **Ollama**, and built using **Flask**.
 
----
 
 # 🚀 Features
 
@@ -17,7 +16,6 @@ Powered by **open-source LLMs** (like `CodeLlama`) via **Ollama**, and built usi
 - 🧪 Simple web-based UI
 - 🔧 Built with Flask + HTML + JS
 
----
 
 # 🧰 Tech Stack
 
@@ -25,7 +23,6 @@ Powered by **open-source LLMs** (like `CodeLlama`) via **Ollama**, and built usi
 - **Frontend:** HTML, CSS, JavaScript
 - **LLM Model:** CodeLlama (via Ollama)
 
----
 
 ## 📦 Requirements
 
@@ -37,11 +34,10 @@ Powered by **open-source LLMs** (like `CodeLlama`) via **Ollama**, and built usi
 ollama run codellama
 ```
 
----
 
-## 🛠 Setup Instructions
+# 🛠 Setup Instructions
 
-### 1️⃣ Clone the project
+## 1️⃣ Clone the project
 
 ```bash
 git clone https://github.com/your-username/offline-coding-assistant.git
