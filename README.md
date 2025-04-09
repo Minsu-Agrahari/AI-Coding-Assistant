@@ -1,50 +1,51 @@
 # 🧠 AI-Coding-Assistant  
 **Offline AI-Powered Coding Assistant**
 
-A smart, AI-driven coding assistant that works **offline**!  
-It detects errors, explains code, and suggests fixes for **Python, Java, C, and JavaScript** — all without needing an internet connection.
+A smart, AI-driven coding assistant that works **100% offline**!  
+It detects errors, explains code, and suggests fixes for **Python, Java, C, and JavaScript** — all without an internet connection.
 
-Powered by **open-source LLMs** (like `CodeLlama`) via **Ollama**, and built using **Flask**.
+Powered by open-source LLMs like **TinyLlama** via **Ollama**, and built using **Flask**.
 
 
 # 🚀 Features
 
-- 💡 Explains code logic
-- 🛠 Detects errors and suggests fixes
-- ⚙️ Works offline using local models
-- 🐍 Supports Python, Java, C, JavaScript
-- 🧪 Simple web-based UI
-- 🔧 Built with Flask + HTML + JS
+- 💡 Explains code logic clearly
+- 🛠 Detects coding errors and suggests possible fixes
+- ⚙️ Works offline using local LLM models
+- 🐍 Supports **Python, Java, C, and JavaScript**
+- 🧪 User-friendly web interface
+- 🔧 Built using Flask, HTML, and JavaScript
 
 
 # 🧰 Tech Stack
 
 - **Backend:** Python, Flask, Requests, Ollama
 - **Frontend:** HTML, CSS, JavaScript
-- **LLM Model:** CodeLlama (via Ollama)
+- **LLM Model:** TinyLlama (via Ollama)
 
 
-## 📦 Requirements
+# 📦 Requirements
 
 - Python 3.x
-- [Ollama](https://ollama.com/) (installed & running locally)
-- CodeLlama model pulled via Ollama:
+- [Ollama](https://ollama.com/) installed and running locally
+- TinyLlama model pulled via Ollama
 
 ```bash
-ollama run codellama
+ollama run tinyllama
 ```
 
+---
 
 # 🛠 Setup Instructions
 
-##  1️⃣ Clone the project
+## 1️⃣ Clone the Project
 
 ```bash
 git clone https://github.com/your-username/offline-coding-assistant.git
 cd offline-coding-assistant
 ```
 
-##  2️⃣ Create & activate virtual environment
+## 2️⃣ Create & Activate a Virtual Environment
 
 ```bash
 python -m venv venv
@@ -59,30 +60,30 @@ python -m venv venv
   source venv/bin/activate
   ```
 
-##   3️⃣ Install dependencies
+## 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-##   4️⃣ Start Ollama (in a separate terminal)
+## 4️⃣ Start Ollama (in a Separate Terminal)
 
 ```bash
-ollama run codellama
+ollama run tinyllama
 ```
 
-##   5️⃣ Run the Flask server
+## 5️⃣ Run the Flask Server
 
 ```bash
 python app.py
 ```
 
-Then open your browser at:  
+Open your browser at:  
 **http://localhost:5000**
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```
 offline-coding-assistant/
@@ -98,25 +99,24 @@ offline-coding-assistant/
 
 ---
 
-## 👨‍💻 Team: SYNTAX SQUAD
+# 👨‍💻 Team: SYNTAX SQUAD
 
-| Name            | Role                  |
-|-----------------|-----------------------|
-| Minsu Agrahari  | Team Leader           |
-| Aditi Anand     | Frontend Developer    |
-| Rinita Saha     | Frontend Developer    |
-| Aneesh Das      | Backend Developer     |
+| Name            | Role                |
+|-----------------|---------------------|
+| Minsu Agrahari  | Team Leader         |
+| Aditi Anand     | Frontend Developer  |
+| Rinita Saha     | Frontend Developer  |
+| Aneesh Das      | Backend Developer   |
+
+---
+
+# 📢 License
+
+This project is open-source and available under the **MIT License**.
 
 ---
 
-## 📢 License
-
-This project is open-sourced under the **MIT License**.
-
----
+💡 *Made with passion, code, and open-source intelligence.*
 ```
 
-You're doing great — this is shaping up into an awesome project! 🚀
-
---------------------------------------------------------------------------------------------------
-
+---
