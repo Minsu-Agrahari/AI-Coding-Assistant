@@ -3,7 +3,6 @@
 # Returns the AI-generated result as JSON to the frontend.
 
 from flask import Flask, render_template, request, jsonify
-import subprocess
 import ollama
 
 app = Flask(__name__)
@@ -22,11 +21,11 @@ def process_code():
         code = data.get('code')
         language = data.get('language')
 
-        # Prepare prompt for the LLM model (Codellama)
+        # Prepare prompt for the LLM model (TinyLlama)
         prompt = f"Analyze the following {language} code. Detect any errors, suggest fixes, and explain what the code does.\n\nCode:\n{code}"
 
-        # Run the model using Ollama
-        response = ollama.chat(model='codellama', messages=[{"role": "user", "content": prompt}])
+        # Run the model using TinyLlama through Ollama
+        response = ollama.chat(model='tinyllama', messages=[{"role": "user", "content": prompt}])
 
         # Extract the response content
         result = response['message']['content']
