@@ -1,7 +1,3 @@
-Perfect, Minsu! Since you're **not using Heroku** for deployment and running everything **locally**, here’s your updated and cleanly formatted `README.md` without Heroku mentions and fully focused on local execution using **Ollama** and **Flask**:
-
----
-
 ```markdown
 # 🧠 AI-Coding-Assistant  
 **Offline AI-Powered Coding Assistant**
